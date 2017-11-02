@@ -1,0 +1,24 @@
+{
+  "name": "react-calculator",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ryan Sheehan"
+  },
+  "scripts": {
+    "start": "babel-node ./server/server.js",
+    "webpack": "webpack --config=webpack.config.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "react": "16.0.0-alpha.12",
+    "react-dom": "16.0.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.19.0",
+    "webpack": "^2.4.1"
+  }
+}
